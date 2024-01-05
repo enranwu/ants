@@ -1059,6 +1059,7 @@ def make_extra_hard_assault_plan():
 
 
 from utils import *
+# DONE!
 @main
 def run(*args):
     Insect.reduce_armor = class_method_wrapper(Insect.reduce_armor,
